@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='pageStyles.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favIcon.png') }}" type="image/x-icon">
+    <title>Tomato Disease Prediction</title>
+</head>
+
+<body>
+    <div class="header">
+        TOMATO PLANT DISEASE PREDICTION
+    </div>
+    <div class="container">
+        <img src="{{ user_image }}" alt="User Image" class="user-image">
+        <p class="disease-heading"> Late Blight </p>
+        <div class="cure-content">
+            <h1>Precautionary Measures</h1>
+            <p>Use fungicide sprays based on mandipropamid, chlorothalonil, fluazinam, mancozeb to combat late blight. 
+                Fungicides are generally needed only if the disease appears during a time of year when rain is likely or overhead irrigation is practiced.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
